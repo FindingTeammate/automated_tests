@@ -1,0 +1,58 @@
+.accepted-requests-container {
+  .accepted-request-item {
+    margin: 1rem 0;
+    background-color: #222d31;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+    color: #90ee90;
+
+    span {
+      font-weight: bold;
+    }
+
+    p {
+      color: #ffff;
+    }
+  }
+}
+
+.friends-outer-container {
+  min-height: 90vh;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+
+  background: linear-gradient(-45deg, #b5d8ec, #fad1f7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .friends-inner-container {
+    max-width: 60%;
+    min-width: 40%;
+  }
+
+  .segemented-control {
+    width: 100%;
+  }
+}
+
+.no-requests-container {
+  margin-top: 1.5rem;
+}
+.remove-request-btn {
+  margin-top: 1rem;
+}

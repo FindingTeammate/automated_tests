@@ -1,0 +1,61 @@
+.rootContainer {
+  nav {
+    display: flex;
+    padding: 1rem;
+    background-color: #222d31;
+  }
+
+  .authContainer {
+    margin-left: auto;
+  }
+
+  .appContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    // The following three styles apply to all anchor tags (Links)
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    // color: black;
+
+    // // The following styles only applies for Home link
+    // &.user-list {
+    //   text-decoration: none;
+    //   color: red !important;
+    // }
+
+    // // The following styles only applies for Login link
+    // &.login {
+    //   color: green;
+    // }
+
+    // // The following styles only applies for Login link
+    // &.register {
+    //   color: blue;
+    // }
+  }
+
+  .me {
+    color: #fff;
+    // padding: 0.75rem 0.75rem;
+    // border-radius: 50%;
+    // background-color: #222d31;
+  }
+
+  .home {
+    // font-size: 2.5rem;
+    color: #fff;
+  }
+
+  .logout {
+    color: #fff;
+    padding: 0.75rem 0.75rem;
+    border-radius: 40px;
+    background-color: #222d31;
+  }
+}

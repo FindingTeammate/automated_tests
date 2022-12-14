@@ -1,0 +1,44 @@
+.body-container {
+  background: linear-gradient(-45deg, #b5d8ec, #fad1f7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+.register-container {
+  background-color: #222d31;
+  padding: 3% 5%;
+  border-radius: 1%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  div {
+    text-align: center;
+  }
+  .mantine-Input-wrapper {
+    margin-bottom: 2rem !important;
+  }
+}
+.form-submit-error {
+  margin: 0;
+  color: #ff6464;
+  margin-top: 1.5rem;
+  &:nth-of-type(2) {
+    margin-top: 0.5rem;
+  }
+}
